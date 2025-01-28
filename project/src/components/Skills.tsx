@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <section className="max-w-4xl w-full">
         <h2 className="text-2xl font-bold mb-6 text-[#e1e2e4]">Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
           <div>
             <h3 className="text-[#64b5f6] font-medium mb-3">Languages</h3>
             <p className="text-[#9ba1a6] leading-relaxed">
