@@ -1,30 +1,13 @@
 import { FiGithub } from "react-icons/fi";
 import { GoArrowUpRight } from "react-icons/go";
+import projects from "../data/projects";
 
 const Projects = () => {
   return (
     <section className="max-w-4xl w-full">
       <h2 className="text-2xl font-bold mb-6 text-[#e1e2e4]">Projects</h2>
       <div className="space-y-4">
-        {[
-          {
-            name: "BUZZ",
-            description:
-              "An anonymous platform with AI-generated posts, content moderation, and daily themed discussions.",
-            tech: ['React.js', 'TypeScript', 'MongoDB', 'Tailwind CSS' , 'Express.js']
-
-          },
-          {
-            name: "AI Chat Application",
-            description: "Real-time chat application with AI integration",
-            tech: ['React', 'Node.js', 'Socket.io', 'OpenAI']
-          },
-          {
-            name: "Task Management System",
-            description: "Enterprise task management solution with analytics",
-            tech: ['React', 'GraphQL', 'PostgreSQL', 'Docker']
-          },
-        ].map((project, index) => (
+        {projects.map((project, index) => (
           <div
             key={index}
             className="group flex items-center gap-6 p-4 hover:bg-[#121317] rounded-lg transition-colors"
@@ -34,13 +17,13 @@ const Projects = () => {
                 <h2 className="font-bold text-lg text-[#e1e2e4]">{project.name}</h2>
                 <div className="flex items-center gap-6">
                   <a
-                    href="#"
+                    href={project.link}
                     className="text-[#9ba1a6] text-sm hover:text-[#64b5f6]"
                   >
                     <GoArrowUpRight size={20} className="inline ml-1" />
                   </a>
                   <a
-                    href="#"
+                    href={project.github}
                     className="text-[#9ba1a6] text-sm hover:text-[#64b5f6]"
                   >
                     <FiGithub size={20} className="inline ml-1" />

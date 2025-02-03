@@ -8,12 +8,12 @@ const Skills = () => {
             <h3 className="text-[#64b5f6] font-medium mb-3">Languages</h3>
             <p className="text-[#9ba1a6] leading-relaxed">
               <span className="hover:text-[#64b5f6] transition duration-300">
-                JavaScript
+                Java
               </span>
               ,
               <span className="hover:text-[#64b5f6] transition duration-300">
                 {" "}
-                TypeScript
+                C
               </span>
               ,
               <span className="hover:text-[#64b5f6] transition duration-300">
@@ -23,7 +23,7 @@ const Skills = () => {
               ,
               <span className="hover:text-[#64b5f6] transition duration-300">
                 {" "}
-                SQL
+                Go
               </span>
             </p>
           </div>
@@ -31,7 +31,12 @@ const Skills = () => {
             <h3 className="text-[#81c784] font-medium mb-3">Web Development</h3>
             <p className="text-[#9ba1a6] leading-relaxed">
               <span className="hover:text-[#81c784] transition duration-300">
-                React
+                TypeScript
+              </span>
+              ,
+              <span className="hover:text-[#81c784] transition duration-300">
+                {" "}
+                JavaScript
               </span>
               ,
               <span className="hover:text-[#81c784] transition duration-300">
@@ -41,7 +46,7 @@ const Skills = () => {
               ,
               <span className="hover:text-[#81c784] transition duration-300">
                 {" "}
-                Next.js
+                React.js
               </span>
               ,
               <span className="hover:text-[#81c784] transition duration-300">
@@ -51,7 +56,17 @@ const Skills = () => {
               ,
               <span className="hover:text-[#81c784] transition duration-300">
                 {" "}
+                Redis
+              </span>
+              ,
+              <span className="hover:text-[#81c784] transition duration-300">
+                {" "}
                 PostgreSQL
+              </span>
+              ,
+              <span className="hover:text-[#81c784] transition duration-300">
+                {" "}
+                MongoDB
               </span>
             </p>
           </div>
@@ -80,6 +95,16 @@ const Skills = () => {
               <span className="hover:text-[#ba68c8] transition duration-300">
                 {" "}
                 Linux
+              </span>
+              ,
+              <span className="hover:text-[#ba68c8] transition duration-300">
+                {" "}
+                Bash
+              </span>
+              ,
+              <span className="hover:text-[#ba68c8] transition duration-300">
+                {" "}
+                Firebase
               </span>
             </p>
           </div>
