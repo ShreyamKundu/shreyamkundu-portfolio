@@ -1,5 +1,6 @@
-import { Mail, Linkedin } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
+import { FiLinkedin } from "react-icons/fi";
+import { MdOutlineMail } from "react-icons/md";
 
 const Contacts = () => {
   return (
@@ -8,20 +9,20 @@ const Contacts = () => {
         <p className="text-lg font-bold text-[#e1e2e4] mb-6">
           I'm open to new opportunities! Reach out anytime—I'd love to connect.
         </p>
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center gap-12">
           <a
             href="mailto:shreyamkundu04@gmail.com"
             className="text-[#9ba1a6] hover:text-[#64b5f6] transition-colors text-2xl"
             aria-label="Email"
           >
-            <Mail size={24} />
+            <MdOutlineMail size={28} />
           </a>
           <a
             href="https://www.linkedin.com/in/shreyamkundu/"
             className="text-[#9ba1a6] hover:text-[#64b5f6] transition-colors text-2xl"
             aria-label="LinkedIn"
           >
-            <Linkedin size={24} />
+            <FiLinkedin size={24} />
           </a>
           <a
             href="https://x.com/ShreyamKundu"

@@ -1,5 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-  
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar when not scrolling (Optional) */
+body {
+  font-family: "Lato", sans-serif;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #555 #111;
+}
+
+/* For ChatGPT-like "floating" scrollbar effect */
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar by default */
+}
+
+body:hover::-webkit-scrollbar {
+  display: block; /* Show only on hover */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px; /* Slim scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; /* Dark grey scrollbar */
+  border-radius: 10px;
+  min-height: 20px; /* Ensures the scrollbar is always short */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Lighter grey on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #111; /* Match dark theme */
+}
+

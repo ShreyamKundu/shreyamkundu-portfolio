@@ -10,28 +10,28 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group flex items-center gap-6 p-4 hover:bg-[#121317] rounded-lg transition-colors w-full"
+            className="group flex items-center gap-6 p-4 bg-[#121317] hover:bg-[#2a2b2e] rounded-lg transition-colors w-full"
           >
             <div className="flex-1 w-full">
               <div className="flex items-center gap-2 mb-2 justify-between">
-                <h2 className="font-bold text-lg text-[#e1e2e4]">{project.name}</h2>
-                <div className="flex items-center gap-6 flex-wrap">
+                <h2 className="font-bold text-xl text-[#e1e2e4]">{project.name}</h2>
+                <div className="flex items-center gap-10 flex-wrap">
                   <a
                     href={project.link}
                     className="text-[#9ba1a6] text-sm hover:text-[#64b5f6]"
                   >
-                    <GoArrowUpRight size={20} className="inline ml-1" />
+                    <GoArrowUpRight size={24 } className="inline ml-1" />
                   </a>
                   <a
                     href={project.github}
                     className="text-[#9ba1a6] text-sm hover:text-[#64b5f6]"
                   >
-                    <FiGithub size={20} className="inline ml-1" />
+                    <FiGithub size={24} className="inline ml-1" />
                   </a>
                 </div>
               </div>
 
-              <p className="text-[#9ba1a6] text-sm mb-2 break-words overflow-hidden">
+              <p className="text-[#9ba1a6] text-lg mb-2 break-words overflow-hidden">
                 {project.description}
               </p>
 
