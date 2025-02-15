@@ -4,18 +4,18 @@ import projects from "../data/projects";
 
 const Projects = () => {
   return (
-    <section className="max-w-4xl w-full">
+    <section className="max-w-4xl w-full overflow-hidden">
       <h2 className="text-2xl font-bold mb-6 text-[#e1e2e4]">Projects</h2>
       <div className="space-y-4">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group flex items-center gap-6 p-4 hover:bg-[#121317] rounded-lg transition-colors"
+            className="group flex items-center gap-6 p-4 hover:bg-[#121317] rounded-lg transition-colors w-full"
           >
-            <div className="flex-1">
+            <div className="flex-1 w-full">
               <div className="flex items-center gap-2 mb-2 justify-between">
                 <h2 className="font-bold text-lg text-[#e1e2e4]">{project.name}</h2>
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-6 flex-wrap">
                   <a
                     href={project.link}
                     className="text-[#9ba1a6] text-sm hover:text-[#64b5f6]"
@@ -31,11 +31,11 @@ const Projects = () => {
                 </div>
               </div>
 
-              <p className="text-[#9ba1a6] text-sm mb-2">
+              <p className="text-[#9ba1a6] text-sm mb-2 break-words overflow-hidden">
                 {project.description}
               </p>
-              {/* <p className="text-[#c5c7ca] text-sm">{project.tech}</p> */}
-              <p className="text-[#c5c7ca] text-sm">
+
+              <p className="text-[#c5c7ca] text-sm flex flex-wrap">
                 {project.tech.map((tech, i) => (
                   <span key={i}>
                     {i > 0 && <span className="mx-2 text-[#64b5f6]">•</span>}
@@ -53,4 +53,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
