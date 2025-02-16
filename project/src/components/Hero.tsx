@@ -1,7 +1,7 @@
 import { FaXTwitter } from "react-icons/fa6";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { GoArrowUpRight } from "react-icons/go";
-import me from "../assets/me.jpg";
+import me from "../assets/me.webp";
 
 const Hero = () => {
   return (
