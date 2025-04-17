@@ -17,13 +17,13 @@ export default function Currently() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <h3 className="text-xl font-medium mb-2">
-          Building projects around{" "}
+          Building and exploring{" "}
           <span className="text-emerald-400">Full Stack Web</span>,{" "}
           <span className="text-emerald-400">App Development</span>, and{" "}
           <span className="text-emerald-400">DevOps</span>.
         </h3>
         <p className="text-zinc-400">
-          Actively exploring new opportunities and open to roles.
+          Actively seeking new opportunities and open to roles.{" "}
         </p>
       </motion.div>
     </section>
