@@ -25,7 +25,7 @@ export default function Navbar() {
           <Code className="w-4 h-4" />
           <span>Projects</span>
         </Link>
-        <Link href="/blog" className={navItemClass("/blog")}>
+        <Link href="/blogs" className={navItemClass("/blogs")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-4 h-4"
@@ -43,7 +43,7 @@ export default function Navbar() {
             <path d="M12 6h.01" />
             <path d="M16 6h.01" />
           </svg>
-          <span>Blog</span>
+          <span>Blogs</span>
         </Link>
         <a
           href="https://drive.google.com/file/d/1E9EBRiAcTTQdO5UpWlKXXrl-SZPM7gqW/view?usp=sharing"
