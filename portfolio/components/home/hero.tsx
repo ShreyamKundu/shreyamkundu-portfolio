@@ -3,7 +3,6 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    // <section className="mb-24 flex items-center gap-6">
     <section className="mb-24 flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}

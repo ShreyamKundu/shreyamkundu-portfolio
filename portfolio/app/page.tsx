@@ -18,21 +18,27 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <>
-      {/* Hero Section */}
-      <Hero />
+    <div className="min-h-screen bg-black text-white/90 selection:bg-emerald-500/30 selection:text-white">
+      <div className="max-w-4xl mx-auto px-6 py-12">
+        {/* Navbar */}
+        <Navbar />
+        {/* Hero Section */}
+        <Hero />
 
-      {/* Currently Section */}
-      <Currently />
+        {/* Currently Section */}
+        <Currently />
 
-      {/* About Section */}
-      <About />
+        {/* About Section */}
+        <About />
 
-      {/* Tech Stack */}
-      <TechStack />
+        {/* Tech Stack */}
+        <TechStack />
 
-      {/* Projects Section */}
-      <Projects />
-    </>
+        {/* Projects Section */}
+        <Projects />
+        {/* Footer */}
+        <Footer />
+      </div>
+    </div>
   );
 }
