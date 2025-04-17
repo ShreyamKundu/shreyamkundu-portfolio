@@ -122,12 +122,8 @@ export default function BlogPage() {
             className="grid grid-cols-1 md:grid-cols-2 gap-4"
           >
             {[
-              "Microservice Architecture Best Practices",
-              "Optimizing Database Performance",
-              "Building Resilient Distributed Systems",
-              "API Design Principles",
-              "Cloud Infrastructure Automation",
-              "Containerization and Orchestration",
+              "Building a Custom Shell in Go: A Step-by-Step Guide",
+              "How I Built My First SaaS Product",
             ].map((topic, index) => (
               <div
                 key={index}
