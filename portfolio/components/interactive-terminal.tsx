@@ -13,8 +13,7 @@ const socialLinks = {
   github: "https://github.com/ShreyamKundu",
   twitter: "https://twitter.com/ShreyamKundu",
   x: "https://x.com/ShreyamKundu",
-  portfolio: "https://yourportfolio.com",
-  blog: "https://yourblog.com",
+  portfolio: "https://www.shreyamkundu.me/",
 };
 
 export function InteractiveTerminalWithCommands() {
@@ -64,29 +63,25 @@ socials - List all my social profiles
 goto [platform] - Open social profile (linkedin, github, twitter, x, portfolio, blog)
 clear - Clear the terminal screen`;
     } else if (cmd === "about") {
-      output =
-        "Backend developer passionate about building scalable systems and elegant solutions.";
+      output = "A developer who enjoys building things that make sense.";
     } else if (cmd === "skills") {
-      output =
-        "TypeScript, Node.js, React, Python, Go, AWS, Docker, Kubernetes";
+      output = "TypeScript, Node.js, React, Go, PostgreSQL, Next.js, Nest.";
     } else if (cmd === "projects") {
       output = `Notable projects:
-1. Project Alpha - Distributed system for high-volume data processing
-2. DevPortal - Developer portal with real-time collaboration
-3. CloudScale - Auto-scaling infrastructure management tool`;
+1. ShX - A lightweight, POSIX-compliant shell
+2. BUZZ - An anonymous social platform
+3. CollabCode - A real-time collaborative code editor`;
     } else if (cmd === "contact") {
-      output = "Email: shreyamkundu04@gmail.com | Phone: (123) 456-7890";
+      output = "Email: shreyamkundu04@gmail.com";
     } else if (cmd === "hire") {
-      output = `I'm open to freelance opportunities and full-time positions.
-Send project details to: shreyamkundu04@gmail.com
-Or schedule a call: calendly.com/shreyamkundu`;
+      output = `Currently open to remote freelance and full-time opportunities.
+For hiring inquiries, please reach out to: shreyamkundu04@gmail.com`;
     } else if (cmd === "socials") {
       output = `My social profiles:
 - LinkedIn: ${socialLinks.linkedin}
 - GitHub: ${socialLinks.github}
 - Twitter/X: ${socialLinks.x}
 - Portfolio: ${socialLinks.portfolio}
-- Blog: ${socialLinks.blog}
 
 Use 'goto [platform]' to open directly.`;
     } else if (cmd.startsWith("goto ")) {
@@ -105,9 +100,6 @@ Use 'goto [platform]' to open directly.`;
           break;
         case "portfolio":
           output = navigateTo(socialLinks.portfolio);
-          break;
-        case "blog":
-          output = navigateTo(socialLinks.blog);
           break;
         default:
           output = `Unknown platform: ${platform}. Try 'socials' to see available options.`;
