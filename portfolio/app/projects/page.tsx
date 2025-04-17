@@ -49,8 +49,8 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-medium mb-2">
               Exploring{" "}
               <span className="text-emerald-400">Backend Systems</span>,
-              <span className="text-emerald-400"> Cloud Architecture</span> and
-              <span className="text-emerald-400"> Distributed Computing</span>
+              <span className="text-emerald-400"> AI Automation</span> and
+              <span className="text-emerald-400"> Browser Extensions</span>
             </h3>
             <p className="text-zinc-400">
               A collection of side projects I've built to explore new

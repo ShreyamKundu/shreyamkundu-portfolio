@@ -38,7 +38,7 @@ export default function BlogPage() {
             <h3 className="text-xl font-medium mb-2">
               Thoughts on{" "}
               <span className="text-emerald-400">Software Development</span>,
-              <span className="text-emerald-400"> System Design</span> and
+              <span className="text-emerald-400"> What I’m Building</span>, and
               <span className="text-emerald-400"> Technology</span>
             </h3>
             <p className="text-zinc-400">
