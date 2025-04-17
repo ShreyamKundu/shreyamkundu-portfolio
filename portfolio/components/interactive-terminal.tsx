@@ -160,7 +160,7 @@ Use 'goto [platform]' to open directly.`;
     >
       <div className="flex items-center gap-2 px-4 py-2 bg-zinc-800/50 border-b border-zinc-700">
         <Terminal className="h-4 w-4 text-emerald-400" />
-        <div className="text-xs text-zinc-400">interactive@portfolio ~ </div>
+        <div className="text-xs text-zinc-400">shreyam@portfolio ~ </div>
       </div>
 
       <div
