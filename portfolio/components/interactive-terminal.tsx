@@ -63,9 +63,9 @@ socials - List all my social profiles
 goto [platform] - Open social profile (linkedin, github, twitter, x, portfolio, blog)
 clear - Clear the terminal screen`;
     } else if (cmd === "about") {
-      output = "A developer who enjoys building things that make sense.";
+      output = "A developer who enjoys building things that matter.";
     } else if (cmd === "skills") {
-      output = "TypeScript, Node.js, React, Go, PostgreSQL, Next.js, Nest.";
+      output = "TypeScript, Node.js, React, Go, PostgreSQL, Next.js, Nest.js";
     } else if (cmd === "projects") {
       output = `Notable projects:
 1. ShX - A lightweight, POSIX-compliant shell
