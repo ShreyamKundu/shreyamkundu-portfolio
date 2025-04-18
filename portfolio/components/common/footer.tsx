@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
         ) : (
           <div className="flex flex-col items-center gap-8">
-            <div className="flex flex-wrap justify-center gap-16 sm:gap-12">
+            <div className="flex flex-wrap justify-center gap-12">
               <a
                 href="https://github.com/ShreyamKundu"
                 target="_blank"

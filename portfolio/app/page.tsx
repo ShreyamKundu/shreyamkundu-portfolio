@@ -18,8 +18,8 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen bg-black text-white/90 selection:bg-emerald-500/30 selection:text-white">
-      <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="min-h-screen bg-black text-white/90 selection:bg-emerald-500/30 selection:text-white overflow-hidden">
+      <div className="w-11/12 lg:max-w-4xl mx-auto px-2 py-12">
         {/* Navbar */}
         <Navbar />
         {/* Hero Section */}

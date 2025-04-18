@@ -45,7 +45,7 @@ export default function Navbar() {
           </svg>
           <span>Blogs</span>
         </Link>
-        <a
+        {/* <a
           href="https://drive.google.com/file/d/1E9EBRiAcTTQdO5UpWlKXXrl-SZPM7gqW/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
@@ -68,7 +68,7 @@ export default function Navbar() {
             <polyline points="10 9 9 9 8 9" />
           </svg>
           <span>Resume</span>
-        </a>
+        </a> */}
       </div>
     </nav>
   );
