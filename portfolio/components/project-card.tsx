@@ -42,7 +42,7 @@ export default function ProjectCard({
   );
 
   return link ? (
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <a href={link} target="_blank" rel="noopener noreferrer" className="block">
       {cardContent}
     </a>
   ) : (
