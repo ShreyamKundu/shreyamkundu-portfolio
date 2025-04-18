@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FileText, ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Hero() {
@@ -15,7 +16,7 @@ export default function Hero() {
           alt="Profile"
           width={96}
           height={96}
-          className="rounded-full object-cover w-full h-full  "
+          className="rounded-full object-cover w-full h-full"
         />
       </motion.div>
       <div>
@@ -36,6 +37,22 @@ export default function Hero() {
           A software developer who loves building things that matter. Based in
           Kolkata, India.
         </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mt-6"
+        >
+          <a
+            href="https://drive.google.com/file/d/1E9EBRiAcTTQdO5UpWlKXXrl-SZPM7gqW/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 px-4 py-2 rounded-full transition-colors"
+          >
+            <FileText className="w-4 h-4" />
+            Resume <ArrowUpRight className="w-4 h-4 ml-1" />
+          </a>
+        </motion.div>
       </div>
     </section>
   );
