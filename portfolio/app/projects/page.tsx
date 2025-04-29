@@ -49,7 +49,7 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-medium mb-2">
               Exploring{" "}
               <span className="text-emerald-400">Backend Systems</span>,
-              <span className="text-emerald-400"> Workflow Automation</span> &
+              <span className="text-emerald-400"> Agentic Workflows</span> &
               <span className="text-emerald-400"> Generative AI</span>
             </h3>
             <p className="text-zinc-400">
