@@ -8,6 +8,22 @@ export const projects = [
     category: ["CLI"],
   },
   {
+    title: "PeerNet",
+    description:
+      "A P2P file-sharing system enabling reliable, direct data transfers between peers via a central tracker and a reputation-based economy.",
+    tags: ["Go"],
+    link: "https://github.com/ShreyamKundu/PeerNet",
+    category: ["CLI"],
+  },
+  {
+    title: "sift",
+    description:
+      "A smart command-line tool written in Go to organize messy folders automatically. Supports custom rules, date-based sorting, and folder exclusion.",
+    tags: ["Go"],
+    link: "https://github.com/ShreyamKundu/sift",
+    category: ["CLI"],
+  },
+  {
     title: "BUZZ",
     description:
       "An anonymous platform with AI-generated posts, content moderation, and daily themed discussions.",

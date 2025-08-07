@@ -17,7 +17,7 @@ export default function Projects() {
         Recent Projects
       </motion.h2>
       <div className="space-y-4">
-        {projects.slice(0, 3).map((project, index) => (
+        {projects.slice(0, 4).map((project, index) => (
           <ProjectCard
             key={index}
             title={project.title}
